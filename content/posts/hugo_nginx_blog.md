@@ -2,7 +2,7 @@
 title: "hugo + nginx 搭建博客记录"           
 author: "Kingram"              
 date: 2021-07-13            
-lastmod: 2021-07-13       
+lastmod: 2021-07-14      
 
 tags: [              
     "blog",
@@ -11,7 +11,6 @@ tags: [
 ---
 
 <p>作为一个萌新Gopher，经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，这种风格很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭，o(*￣︶￣*)o</p>
-
 ## Hugo简介
 
 `Hugo`是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
@@ -40,13 +39,13 @@ mv hugo /usr/bin/
 
 检查是否安装成功
 
-```
+```bash
 hugo version
 ```
 
 输出
 
-```
+```bash
 hugo v0.85.0-724D5DB5 linux/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohugoio
 ```
 
@@ -56,7 +55,7 @@ hugo v0.85.0-724D5DB5 linux/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohu
 
 在当前目录执行命令创建blog站点
 
-```
+```bash
 hugo new site myblog
 ```
 
@@ -81,9 +80,9 @@ hugo new site myblog
 
 安装依次执行以下命令：
 
-```
+```bash
 cd myblog 
-# clone到
+# clone到指定目录
 git clone https://github.com/Track3/hermit.git ./themes/hermit
 ```
 
@@ -91,7 +90,7 @@ git clone https://github.com/Track3/hermit.git ./themes/hermit
 
 将`hermit`主题中`exampleSite`目录下的内容拷贝到当前目录`myblog`下
 
-```
+```bash
 cp themes/hermit/exampleSite/* ./ -r
 ```
 
@@ -99,7 +98,7 @@ cp themes/hermit/exampleSite/* ./ -r
 
 贴上我的`config.toml`文件配置，是抄了煎鱼佬(#^.^#)
 
-```
+```toml
 baseURL = "http://kingram.top"
 languageCode = "zh-hans"
 defaultContentLanguage = "en"
@@ -187,7 +186,7 @@ googleAnalytics = "UA-166045776-1"
 
 设置好配置文件后在`myblog`目录下执行`hugo`命令即可生成`public`文件夹，这个文件夹就是我们站点的根目录文件夹，后面nginx中部署时指定的根目录也是这个。如果想使用`github pages`只要将这个目录放在`github`托管，每次改完提交即可。
 
-```
+```shell
 hugo
 ```
 
@@ -195,13 +194,13 @@ hugo
 
 ### 安装Nginx
 
-```
+```shell
 dnf -y install http://nginx.org/packages/centos/8/x86_64/RPMS/nginx-1.16.1-1.el8.ngx.x86_64.rpm
 ```
 
 执行命令查看nginx版本
 
-```
+```shell
 nginx -v
 ```
 
@@ -209,7 +208,7 @@ nginx -v
 
 修改nginx配置文件的用户，否则后面会出现权限问题
 
-```
+```shell
 vi /etc/nginx/nginx.conf
 ```
 
@@ -221,7 +220,7 @@ vi /etc/nginx/nginx.conf
 
 修改配置文件
 
-```
+```shell
 cd /etc/nginx/conf.d
 vi default.conf
 ```
@@ -230,7 +229,7 @@ vi default.conf
 
 在`location`大括号内，修改以下内容。
 
-```
+```toml
 location / {
     #将该路径替换为您的网站根目录。
     root   /root/myblog/public/;
@@ -245,13 +244,13 @@ location / {
 
 运行以下命令启动Nginx服务。
 
-```
+```shell
 systemctl start nginx
 ```
 
 运行以下命令设置Nginx服务开机自启动。
 
-```
+```shell
 systemctl enable nginx
 ```
 
@@ -261,13 +260,13 @@ systemctl enable nginx
 
 永久关闭防火墙：
 
-```
+```bash
 systemctl disable firewalld
 ```
 
 运行`systemctl status firewalld`命令查看当前防火墙的状态
 
-```
+```bash
 ● firewalld.service - firewalld - dynamic firewall daemon
    Loaded: loaded (/usr/lib/systemd/system/firewalld.service; disabled; vendor preset: enabled)
    Active: inactive (dead)
