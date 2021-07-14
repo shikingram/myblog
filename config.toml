@@ -1,0 +1,90 @@
+baseURL = "http://kingram.top"
+languageCode = "zh-hans"
+defaultContentLanguage = "en"
+title = "Kingram"
+theme = "hermit"
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+googleAnalytics = "UA-166045776-1"
+# disqusShortname = "yourdiscussshortname"
+
+[author]
+  name = "Kingram"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+
+[params]
+  since = "2018"
+  toc = true
+
+ customCSS = ["css/a.css"]
+  
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+
+  # homeSubtitle = "Coding, Thinking, Life"
+  footerCopyright = ' &#183; <a href="http://beian.miit.gov.cn/">苏ICP备2021012652号</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/k1ngram4"
+
+[params.utteranc]
+  enable = true
+  repo = "k1ngram4/myblog" 
+  issueTerm = "pathname"
+  theme = "github-light"
+
+[menu]
+
+  [[menu.main]]
+    name = "文章"
+    url = "posts/"
+    weight = 10
+	
+  [[menu.main]]
+    name = "标签"
+    url = "tags/"
+    weight = 10
+
+  [[menu.main]]
+    name = "关于"
+    url = "about/"
+    weight = 20
+	
+

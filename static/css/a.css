@@ -1,0 +1,29 @@
+html {
+    background: #ffffff;
+    line-height: 1.6;
+    letter-spacing: .06em;
+    scroll-behavior: smooth;
+}
+
+body, button, input, select, textarea {
+    color: #000000;
+    font-family: trebuchet ms,Verdana,verdana ref,segoe ui,Candara,lucida grande,lucida sans unicode,lucida sans,Tahoma,sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    transition-property: color;
+    transition-duration: .4s;
+    transition-timing-function: ease-out;
+}
+
+#site-header {
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: -1px 2px 3px rgb(0 0 0 / 45%);
+    background-color: #f9f9f9;
+    position: static
+}
