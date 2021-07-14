@@ -145,6 +145,12 @@ cat ~/.git/config
 
 这里url改为`git@github.com:K1ngram4/myblog.git`这个地址可以到仓库下载代码的地方选择ssh复制。
 
+最后执行命令查看是否链接成功
+
+```shell
+ssh -T git@github.com
+```
+
 ### 编写js脚本
 
 先安装一个第三方插件[github-webhook-handler](https://github.com/rvagg/github-webhook-handler)
