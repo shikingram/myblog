@@ -1,8 +1,8 @@
 ---
 title: "使用webhook实现git push后自动部署"           
 author: "Kingram"              
-date: 2021-7-14 22:59:57           
-lastmod: 2021-7-14 23:00:06      
+date: 2021-7-14 22:59           
+lastmod: 2021-7-14 23:11     
 
 tags: [              
     "blog",
