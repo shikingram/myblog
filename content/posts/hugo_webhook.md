@@ -2,10 +2,10 @@
 title: "使用webhook实现博客网站自动化部署"           
 author: "Kingram"              
 date: 2021-07-14       
-lastmod: 2021-07-14  
+lastmod: 2021-07-17  
 
 tags: [              
-    "blog",
+    "博客搭建",
 ]       
 
 ---
