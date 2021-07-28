@@ -1,17 +1,10 @@
 {   
-
  "title": "git的使用（一）git基本使用和分支操作",   
-
  "description": "《github入门与实践》阅读笔记",  
-
  "tags": [ "git & github"],   
-
  "date": "2021-07-26",  
-
  "lastmod": "2021-07-28",
-
  "draft":"false",
-
 }
 
 ## 什么是版本管理
