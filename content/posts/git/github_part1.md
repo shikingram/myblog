@@ -4,7 +4,7 @@
     "tags":[
         "git & github"
     ],
-    "date":"2021-07-26",
+    "date":"2021-07-28",
     "lastmod":"2021-07-28",
     "draft":"false"
 }
