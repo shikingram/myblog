@@ -115,7 +115,7 @@ $ git log --graph
 
 此时在历史记录中，版本库在创建`feature-A`前的时间点产生了两个分支，一个是`feature-A`的线，一个是`fix-B`的线，两条线其实是平行空间的，`feature-A`的线已经和`master`合并了，而`fix-B`的线还没有合并。
 
-![image](./static/github_part2/1.jpg)
+![image](https://github.com/K1ngram4/myblog/blob/main/content/posts/git/static/github_part2/1.jpg)
 
 使用`git reflog`命令查看仓库操作日志，找到合并`feature-A`分支后的时间点的hash值
 
@@ -147,7 +147,7 @@ HEAD is now at a4dc01a Merge branch 'feature-A'
 
 此时状态如图所示：
 
-![image](./static/github_part2/2.jpg)
+![image](https://github.com/K1ngram4/myblog/blob/main/content/posts/git/static/github_part2/2.jpg)
 
 现在只要合并`fix-B`分支到`master`分支，就完成任务了，但是我们在`feature-A`分支中也是修改了`README.md`文件的，所以合并会产生冲突。
 
