@@ -20,11 +20,11 @@
 
 
 
-![1](/testImg/1.jpg)
+![1](/img/test/1.jpg)
 
 
 
 图片2
 
-![2](/testImg/dog/2.jpg)
+![2](/img/test/2.jpg)
 
