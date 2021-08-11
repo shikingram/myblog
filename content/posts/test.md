@@ -16,11 +16,15 @@
 
 
 
-图片
+图片1
 
 
 
-![1](/static/1.jpg)
+![1](/testImg/1.jpg)
 
 
+
+图片2
+
+![2](/testImg/dog/2.jpg)
 
