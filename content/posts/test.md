@@ -6,7 +6,7 @@
   ],
   "date":"2021-08-11",
   "lastmod":"2021-08-11",
-  "draft":"true",
+  "draft":"false",
   "author":"kingram"
 }
 
