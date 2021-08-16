@@ -1,5 +1,6 @@
 {
   "title":"Golang设计模式--构建者模式", 
+  "description":"设计模式学习",
   "tags":[
     "设计模式"
   ],
