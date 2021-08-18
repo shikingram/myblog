@@ -92,7 +92,7 @@ sequenceDiagram
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
 
 ## table
-<table><tr><td bgcolor=red>背景色red</td></tr></table> 
+{{<table><tr><td bgcolor=red>背景色red</td></tr></table>}}
 
 ## 🎯 我的持仓收益数据
 
