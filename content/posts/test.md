@@ -73,13 +73,13 @@ sequenceDiagram
 
 - graph LR
 
-​```mermaid
+```mermaid
 graph LR
     A[Hard edge] -->|Link text| B(Round edge)
     B --> C{Decision}
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
-​```
+```
 
 ## video
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
