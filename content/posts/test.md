@@ -103,6 +103,8 @@ pie
     "Iron" :  5 
 {{< /mermaid >}}
 
+## video
+{{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}"
 
 ## 🎯 我的持仓收益数据
 
