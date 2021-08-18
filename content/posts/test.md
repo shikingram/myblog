@@ -73,10 +73,10 @@ sequenceDiagram
 - 饼图
 
 {{< mermaid >}}
-pie title Pets adopted by volunteers
-    "Dogs" : 386
-	"Cats" : 85
-	"Rats" : 15
+pie title What Voldemort doesn't have?
+         "FRIENDS" : 2
+         "FAMILY" : 3
+         "NOSE" : 45
 {{< /mermaid >}}
 
 ## video
