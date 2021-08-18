@@ -77,21 +77,6 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 {{< /mermaid >}}
 
-- ???
-{{< mermaid >}}
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
-{{< /mermaid >}}
-
 ## video
 
 ## table
