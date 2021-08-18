@@ -9,7 +9,7 @@
   "draft":"false",
   "author":"kingram",
   "usemathjax":"true",
-  "usemermaid"："true"
+  "usemermaid":"true"
 }
 
 ## 测试图片
