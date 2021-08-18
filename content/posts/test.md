@@ -97,8 +97,6 @@ sequenceDiagram
 
 ## table
 
-<table><tr><td bgcolor=red>背景色red</td></tr></table>
-
 ## 🎯 我的持仓收益数据
 
 💸 我的持仓总成本为：<font size=3 >**3027.03**</font> USDT，截止**2021-08-18 19:29:26**总价值为：<font color=#FF00FF size=5 >**3062.24**</font> USDT
