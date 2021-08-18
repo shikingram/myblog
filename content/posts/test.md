@@ -7,7 +7,8 @@
   "date":"2021-08-11",
   "lastmod":"2021-08-11",
   "draft":"false",
-  "author":"kingram"
+  "author":"kingram",
+  "mermaid":"true"
 }
 
 ## 测试图片
@@ -70,13 +71,15 @@ sequenceDiagram
 {{< /mermaid >}}
 
 
-- 饼图
+- graph LR
 
-{{< mermaid >}}
-pie title NETFLIX
-         "Time spent looking for movie" : 90
-         "Time spent watching it" : 10
-{{< /mermaid >}}
+​```mermaid
+graph LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+​```
 
 ## video
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
