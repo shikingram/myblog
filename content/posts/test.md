@@ -78,24 +78,23 @@
 
 ## mermaid
 
-​```mermaid
+{{< mermaid >}}
 graph LR
     A[Hard edge] -->|Link text| B(Round edge)
     B --> C{Decision}
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
-​```
+{{< mermaid >}}
 
 - 饼图
 ​
-```mermaid
+{{< mermaid >}}
 pie title 宠物的选择
     "狗" : 386
     "猫" : 85
     "兔子" : 15 
-​```
+{{< /mermaid >}}
 
----
 
 ## 🎯 我的持仓收益数据
 
