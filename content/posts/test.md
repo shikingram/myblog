@@ -76,6 +76,7 @@
 | <font color=#800080>紫色</font>   | <font color=#808080>灰色</font>   |
 
 ## mermaid
+
 ​```mermaid
 graph LR
     A[Hard edge] -->|Link text| B(Round edge)
@@ -87,13 +88,13 @@ graph LR
 
 
 - 饼图
-​```mermaid
+​
+```mermaid
 pie title 宠物的选择
     "狗" : 386
     "猫" : 85
     "兔子" : 15 
 ​```
-
 
 
 ## 🎯 我的持仓收益数据
