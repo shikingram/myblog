@@ -74,27 +74,10 @@ sequenceDiagram
 
 {{< mermaid >}}
 pie title What Voldemort doesn't have?
-         "FRIENDS" : 2
-         "FAMILY" : 3
-         "NOSE" : 45
+    "FRIENDS" : 2
+    "FAMILY" : 3
+    "NOSE" : 45
 {{< /mermaid >}}
-
-
-- div 
-<div class="mermaid">
-  graph LR
-      A --- B
-      B-->C[fa:fa-ban forbidden]
-      B-->D(fa:fa-spinner);
- </div>
- 
-- div 2 
-<div class="mermaid">
-pie title What Voldemort doesn't have?
-         "FRIENDS" : 2
-         "FAMILY" : 3
-         "NOSE" : 45
- </div>
 
 ## video
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
