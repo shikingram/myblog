@@ -93,7 +93,6 @@ sequenceDiagram
 {{< /mermaid >}}
 
 ## video
-`{{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}`
 
 ## table
 
