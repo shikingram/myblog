@@ -54,7 +54,6 @@
 | <font color=#800080>紫色</font>   | <font color=#808080>灰色</font>   |
 
 ## mermaid
-
 {{< mermaid >}}
 sequenceDiagram
 	participant Alice
@@ -68,7 +67,6 @@ sequenceDiagram
 	John->Bob: How about you?
 	Bob-->John: Jolly good!
 {{< /mermaid >}}
-
 - 饼图
 {{< mermaid >}}
 pie title Pets adopted by volunteers
@@ -77,8 +75,24 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 {{< /mermaid >}}
 
+{{< /mermaid >}}
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+{{< /mermaid >}}
 ## video
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
+
+## table
+<table><tr><td bgcolor=red>背景色red</td></tr></table> 
 
 ## 🎯 我的持仓收益数据
 
