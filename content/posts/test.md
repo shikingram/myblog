@@ -7,7 +7,8 @@
   "date":"2021-08-11",
   "lastmod":"2021-08-11",
   "draft":"false",
-  "author":"kingram"
+  "author":"kingram",
+  "usemermaid":"true"
 }
 
 ## 测试图片
