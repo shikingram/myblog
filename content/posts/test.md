@@ -83,7 +83,7 @@ sequenceDiagram
     Alice->John: Hello John, how are you?
     loop Healthcheck
         John->John: Fight against hypochondria
-    end
+	end
     Note right of John: Rational thoughts <br/>prevail...
     John-->Alice: Great!
     John->Bob: How about you?
@@ -93,18 +93,15 @@ sequenceDiagram
 
 - 饼图
 
-
 {{< mermaid >}}
-pie
-    title Key elements in Product X
-    "Calcium" : 42.96
-    "Potassium" : 50.05
-    "Magnesium" : 10.01
-    "Iron" :  5 
+pie title Pets adopted by volunteers
+	"Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15 
 {{< /mermaid >}}
 
 ## video
-{{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}"
+{{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
 
 ## 🎯 我的持仓收益数据
 
