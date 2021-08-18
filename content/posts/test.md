@@ -78,7 +78,7 @@ pie title Pets adopted by volunteers
 {{< /mermaid >}}
 
 - ???
-{{< /mermaid >}}
+{{< mermaid >}}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -96,6 +96,8 @@ sequenceDiagram
 {{< youtube id="8HnLRrQ3RS4" autoplay="true" >}}
 
 ## table
+
+<table><tr><td bgcolor=red>背景色red</td></tr></table>
 
 ## 🎯 我的持仓收益数据
 
