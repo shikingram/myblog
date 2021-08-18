@@ -8,7 +8,8 @@
   "lastmod":"2021-08-11",
   "draft":"false",
   "author":"kingram",
-  "usemermaid":"true"
+  "usemathjax":"true",
+  "usemermaid"："true"
 }
 
 ## 测试图片
@@ -85,8 +86,6 @@ graph LR
     C -->|Two| E[Result two]
 ​```
 
-
-
 - 饼图
 ​
 ```mermaid
@@ -96,6 +95,7 @@ pie title 宠物的选择
     "兔子" : 15 
 ​```
 
+---
 
 ## 🎯 我的持仓收益数据
 
