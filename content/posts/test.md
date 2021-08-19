@@ -1,5 +1,5 @@
 {
-  "title":"测试语法博客",
+  "title":"Hugo的MarkDown语法测试",
   "description":"test",
   "tags":[
     "开发工具"
@@ -7,9 +7,7 @@
   "date":"2021-08-11",
   "lastmod":"2021-08-11",
   "draft":"false",
-  "author":"kingram",
-  "usemathjax":"true",
-  "usemermaid":"true"
+  "author":"kingram"
 }
 
 ## 测试图片
@@ -32,35 +30,14 @@
 
 ## 😄测试emoj
 
-🍖
-
-
-
-🏆
-
-
-
-💰
-
-
-
 ⌚️ 📱 📲 💻 ⌨️ 🖥 🖨 🖱 🖲 🕹 🗜 💽 💾 💿 📀 📼 📷 📸 📹 🎥 📽 🎞 📞 ☎️ 📟 📠 📺 📻 🎙 🎚 🎛 🧭 ⏱ ⏲ ⏰ 🕰 ⌛️ ⏳ 📡 🔋 🔌 💡 🔦 🕯 🪔 🧯 🛢 💸 💵 💴 💶 💷 🪙 💰 💳 💎 ⚖️ 🪜 🧰 🪛 🔧 🔨 ⚒ 🛠 ⛏ 🪚 🔩 ⚙️ 🪤 🧱 ⛓ 🧲 🔫 💣 🧨 🪓 🔪 🗡 ⚔️ 🛡 🚬 ⚰️ 🪦 ⚱️ 🏺 🔮 📿 🧿 💈 ⚗️ 🔭 🔬 🕳 🩹 🩺 💊 💉 🩸 🧬 🦠 🧫 🧪 🌡 🧹 🪠 🧺 🧻 🚽 🚰 🚿 🛁 🛀 🧼 🪥 🪒 🧽 🪣 🧴 🛎 🔑 🗝 🚪 🪑 🛋 🛏 🛌 🧸 🪆 🖼 🪞 🪟 🛍 🛒 🎁 🎈 🎏 🎀 🪄 🪅 🎊 🎉 🎎 🏮 🎐 🧧 ✉️ 📩 📨 📧 💌 📥 📤 📦 🏷 🪧 📪 📫 📬 📭 📮 📯 📜 📃 📄 📑 🧾 📊 📈 📉 🗒 🗓 📆 📅 🗑 📇 🗃 🗳 🗄 📋 📁 📂 🗂 🗞 📰 📓 📔 📒 📕 📗 📘 📙 📚 📖 🔖 🧷 🔗 📎 🖇 📐 📏 🧮 📌 📍 ✂️ 🖊 🖋 ✒️ 🖌 🖍 📝 ✏️ 🔍 🔎 🔏 🔐 🔒 🔓
-
-
-
 
 
 🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🫐 🍈 🍒 🍑 🥭 🍍 🥥 🥝 🍅 🍆 🥑 🥦 🥬 🥒 🌶 🫑 🌽 🥕 🫒 🧄 🧅 🥔 🍠 🥐 🥯 🍞 🥖 🥨 🧀 🥚 🍳 🧈 🥞 🧇 🥓 🥩 🍗 🍖 🦴 🌭 🍔 🍟 🍕 🫓 🥪 🥙 🧆 🌮 🌯 🫔 🥗 🥘 🫕 🥫 🍝 🍜 🍲 🍛 🍣 🍱 🥟 🦪 🍤 🍙 🍚 🍘 🍥 🥠 🥮 🍢 🍡 🍧 🍨 🍦 🥧 🧁 🍰 🎂 🍮 🍭 🍬 🍫 🍿 🍩 🍪 🌰 🥜 🍯 🥛 🍼 🫖 ☕️ 🍵 🧃 🥤 🧋 🍶 🍺 🍻 🥂 🍷 🥃 🍸 🍹 🧉 🍾 🧊 🥄 🍴 🍽 🥣 🥡 🥢 🧂
 
-
-
 👋 🤚 🖐 ✋ 🖖 👌 🤌 🤏 ✌️ 🤞 🤟 🤘 🤙 👈 👉 👆 🖕 👇 ☝️ 👍 👎 ✊ 👊 🤛 🤜 👏 🙌 👐 🤲 🤝 🙏 ✍️ 💅 🤳 💪 🦾 🦵 🦿 🦶 👣 👂 🦻 👃 🫀 🫁 🧠 🦷 🦴 👀 👁 👅 👄 💋 🩸
 
-
-
 😀 😃 😄 😁 😆 😅 😂 🤣 🥲 ☺️ 😊 😇 🙂 🙃 😉 😌 😍 🥰 😘 😗 😙 😚 😋 😛 😝 😜 🤪 🤨 🧐 🤓 😎 🥸 🤩 🥳 😏 😒 😞 😔 😟 😕 🙁 ☹️ 😣 😖 😫 😩 🥺 😢 😭 😤 😠 😡 🤬 🤯 😳 🥵 🥶 😱 😨 😰 😥 😓 🤗 🤔 🤭 🤫 🤥 😶 😐 😑 😬 🙄 😯 😦 😧 😮 😲 🥱 😴 🤤 😪 😵 🤐 🥴 🤢 🤮 🤧 😷 🤒 🤕 🤑 🤠 😈 👿 👹 👺 🤡 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾
-
-
 
 ⚽️ 🏀 🏈 ⚾️ 🥎 🎾 🏐 🏉 🥏 🎱 🪀 🏓 🏸 🏒 🏑 🥍 🏏 🪃 🥅 ⛳️ 🪁 🏹 🎣 🤿 🥊 🥋 🎽 🛹 🛼 🛷 ⛸ 🥌 🎿 ⛷ 🏂 🪂 🏋️‍♀️ 🏋️ 🏋️‍♂️ 🤼‍♀️ 🤼 🤼‍♂️ 🤸‍♀️ 🤸 🤸‍♂️ ⛹️‍♀️ ⛹️ ⛹️‍♂️ 🤺 🤾‍♀️ 🤾 🤾‍♂️ 🏌️‍♀️ 🏌️ 🏌️‍♂️ 🏇 🧘‍♀️ 🧘 🧘‍♂️ 🏄‍♀️ 🏄 🏄‍♂️ 🏊‍♀️ 🏊 🏊‍♂️ 🤽‍♀️ 🤽 🤽‍♂️ 🚣‍♀️ 🚣 🚣‍♂️ 🧗‍♀️ 🧗 🧗‍♂️ 🚵‍♀️ 🚵 🚵‍♂️ 🚴‍♀️ 🚴 🚴‍♂️ 🏆 🥇 🥈 🥉 🏅 🎖 🏵 🎗 🎫 🎟 🎪 🤹 🤹‍♂️ 🤹‍♀️ 🎭 🩰 🎨 🎬 🎤 🎧 🎼 🎹 🥁 🪘 🎷 🎺 🪗 🎸 🪕 🎻 🎲 ♟ 🎯 🎳 🎮 🎰 🧩
 
@@ -77,40 +54,62 @@
 | <font color=#800080>紫色</font>   | <font color=#808080>灰色</font>   |
 
 ## mermaid
+{{< mermaid >}}
+sequenceDiagram
+	participant Alice
+	participant Bob
+	Alice->John: Hello John, how are you?
+	loop Healthcheck
+		John->John: Fight against hypochondria
+	end
+	Note right of John: Rational thoughts <br/>prevail...
+	John-->Alice: Great!
+	John->Bob: How about you?
+	Bob-->John: Jolly good!
+{{< /mermaid >}}
 
-​```mermaid
-graph LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-​```
+## 🎨 我的的持仓占比
 
-饼图
-​
-```mermaid
-pie title 宠物的选择
-    "狗" : 386
-    "猫" : 85
-    "兔子" : 15 
-​```  
+{{< mermaid >}}
+pie title KINGRAM的持仓
+    "SHIB" : 386
+    "DOGE" : 246
+    "BTC" : 15
+	"ETH" : 35
+{{< /mermaid >}}
 
-
-
+## video
 
 ## 🎯 我的持仓收益数据
 
-💸 我的持仓总成本为：<font size=3 >**3027.03**</font> USDT，截止**2021-08-18 19:29:26**总价值为：<font color=#FF00FF size=5 >**3062.24**</font> USDT
+💸 我的持仓总成本为：<font size=3 >**3027.03**</font> USDT，截止 **2021-08-18 19:29:26**，总价值为：<font color=#31d2f7 size=5 >**3062.24**</font> USDT
 
-💰 利润： <font size=3 >**35.21**</font> USDT，收益率：<font color="#00FF00" size=4 >**1.16%**</font>
+💰 利润： <font size=3 >**35.21**</font> USDT，收益率：<font color="#00EC00" size=4 >**1.16%**</font>
 
 每个币种详细的收益数据如下：
 
-| 币种 | 持有数量       | 现价           | 总金额  | 持仓均价       | 成本    | 利润  | 收益率                                            |
-| ---- | -------------- | -------------- | ------- | -------------- | ------- | ----- | ------------------------------------------------- |
-| btc  | 0.013343       | 45151.31872812 | 602.45  | 41737.24050064 | 556.90  | 45.55 | <font color="#00FF00" size=3 >**8.18%**</font>  |
-| doge | 8058.726300    | 0.29592937     | 2384.81 | 0.29714994     | 2394.65 | -9.84 | <font color="#FF0000" size=3 >**-0.41%**</font> |
-| icp  | 0.718261       | 56.64787169    | 40.69   | 57.13803597    | 41.04   | -0.35 | <font color="#FF0000" size=3 >**-0.86%**</font> |
-| shib | 3460860.410000 | 0.00000807     | 27.91   | 0.00000816     | 28.24   | -0.33 | <font color="#FF0000" size=3 >**-1.16%**</font> |
-| win  | 9991.000000    | 0.00063790     | 6.37    | 0.00062056     | 6.20    | 0.17  | <font color="#00FF00" size=3 >**2.79%**</font>  |
-
+<table>
+<thead><tr bgcolor="#d0d0d0" ><th>币种</th><th>持有数量(个)</th><th>现价(USDT)</th><th>总金额(USDT)</</th><th>持仓均价(USDT)</</th><th>成本(USDT)</</th><th>利润(USDT)</</th><th>收益率</th></tr></thead>
+<tbody>
+<tr >
+<td bgcolor="#FFECEC">btc</td>
+<td bgcolor="#FFECEC">0.013343</td>
+<td bgcolor="#FFECEC">45151.31872812</td>
+<td bgcolor="#FFECEC">602.45</td>
+<td bgcolor="#FFECEC">41737.24050064</td>
+<td bgcolor="#FFECEC">556.90</td>
+<td bgcolor="#FFECEC">45.55</td>
+<td bgcolor="#FFECEC"><font color="#FF0000" size=3 ><strong>-8.18%</strong></font></td>
+</tr>
+<tr >
+<td bgcolor="#F0FFF0">doge</td>
+<td bgcolor="#F0FFF0">8058.726300</td>
+<td bgcolor="#F0FFF0">0.29592937</td>
+<td bgcolor="#F0FFF0">2384.81</td>
+<td bgcolor="#F0FFF0">0.29714994</td>
+<td bgcolor="#F0FFF0">2394.65</td>
+<td bgcolor="#F0FFF0">-9.84</td>
+<td bgcolor="#F0FFF0"><font color="#00EC00" size=3 ><strong>-0.41%</strong></font></td>
+</tr>
+</tbody>
+</table>
