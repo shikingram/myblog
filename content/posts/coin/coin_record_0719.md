@@ -1,8 +1,8 @@
 ---
 title: "数字货币持仓记录【2021-7-19】"           
 author: "Kingram"              
-date: 2021-07-19       
-lastmod: 2021-08-12  
+date: "2021-07-19"       
+lastmod: "2021-08-12" 
 
 tags: [              
     "投资",
