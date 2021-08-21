@@ -49,6 +49,26 @@ Class08 <--> C2: Cool label
 ```
 
 ```mermaid
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+```
+
+
+```mermaid
 pie
     title Key elements in Product X
     "Calcium" : 42.96
@@ -56,6 +76,7 @@ pie
     "Magnesium" : 10.01
     "Iron" :  5
 ```
+
 
 
 ```mermaid
@@ -76,21 +97,6 @@ flowchart LR
 ```
 
 
-```mermaid
-gitGraph:
-options
-{
-    "nodeSpacing": 150,
-    "nodeRadius": 10
-}
-end
-commit
-branch newbranch
-checkout newbranch
-commit
-commit
-checkout master
-commit
-commit
-merge newbranch
-```
+
+
+
