@@ -7,7 +7,7 @@
   "date":"2021-08-11",
   "lastmod":"2021-08-11",
   "draft":"false",
-  "author":"kingram"
+  "author":"kingram",
   "mermaid":"true"
 }
 
