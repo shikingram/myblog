@@ -8,6 +8,7 @@
   "lastmod":"2021-08-11",
   "draft":"false",
   "author":"kingram"
+  "mermaid":"true"
 }
 
 ## 测试图片
