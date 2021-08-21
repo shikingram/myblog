@@ -2,7 +2,7 @@
   "title":"Goland常用快捷键",
   "description":"Goland使用笔记",
   "tags":[
-    "开发工具"
+    "development tools"
   ],
   "date":"2021-08-05",
   "lastmod":"2021-08-05",

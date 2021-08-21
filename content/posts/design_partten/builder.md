@@ -1,7 +1,7 @@
 {
   "title":"Golang设计模式--建造者模式",
   "tags":[
-    "设计模式"
+    "design pattern"
   ],
   "date":"2021-08-16",
   "lastmod":"2021-08-16",

@@ -2,7 +2,7 @@
   "title":"Hugo的MarkDown语法测试",
   "description":"test",
   "tags":[
-    "开发工具"
+    "blog"
   ],
   "date":"2021-08-11",
   "lastmod":"2021-08-11",

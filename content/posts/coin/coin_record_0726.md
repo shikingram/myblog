@@ -5,8 +5,8 @@ date: "2021-07-26"
 lastmod: ”2021-08-12"
 
 tags: [              
-    "投资",
-	"虚拟币",
+    "invest",
+	"cryptocurrency",
 ]       
 
 ---
