@@ -32,10 +32,20 @@ graph LR
 
 
 ```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
 ```
 
 ```mermaid
@@ -49,20 +59,20 @@ pie
 
 
 ```mermaid
-    requirementDiagram
+requirementDiagram
 
-    requirement test_req {
-    id: 1
-    text: the test text.
-    risk: high
-    verifymethod: test
-    }
+requirement test_req {
+id: 1
+text: the test text.
+risk: high
+verifymethod: test
+}
 
-    element test_entity {
-    type: simulation
-    }
+element test_entity {
+type: simulation
+}
 
-    test_entity - satisfies -> test_req
+test_entity - satisfies -> test_req
 ```
 
 
