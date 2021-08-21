@@ -59,20 +59,20 @@ pie
 
 
 ```mermaid
-requirementDiagram
-
-requirement test_req {
-id: 1
-text: the test text.
-risk: high
-verifymethod: test
-}
-
-element test_entity {
-type: simulation
-}
-
-test_entity - satisfies -> test_req
+flowchart LR
+  subgraph TOP
+    direction TB
+    subgraph B1
+        direction RL
+        i1 -->f1
+    end
+    subgraph B2
+        direction BT
+        i2 -->f2
+    end
+  end
+  A --> TOP --> B
+  B1 --> B2
 ```
 
 
