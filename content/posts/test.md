@@ -54,19 +54,7 @@
 | <font color=#800080>紫色</font>   | <font color=#808080>灰色</font>   |
 
 ## mermaid
-{{< mermaid >}}
-sequenceDiagram
-	participant Alice
-	participant Bob
-	Alice->John: Hello John, how are you?
-	loop Healthcheck
-		John->John: Fight against hypochondria
-	end
-	Note right of John: Rational thoughts <br/>prevail...
-	John-->Alice: Great!
-	John->Bob: How about you?
-	Bob-->John: Jolly good!
-{{< /mermaid >}}
+
 
 ```mermaid
 sequenceDiagram
@@ -84,13 +72,7 @@ sequenceDiagram
 
 ## 🎨 我的的持仓占比
 
-{{< mermaid >}}
-pie title KINGRAM的持仓
-    "SHIB" : 386
-    "DOGE" : 246
-    "BTC" : 15
-	"ETH" : 35
-{{< /mermaid >}}
+
 
 ```mermaid
 pie title KINGRAM的持仓
