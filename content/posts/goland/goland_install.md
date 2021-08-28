@@ -9,13 +9,12 @@
   "author":"kingram"
 }
 
-# golang开发环境安装
 
 操作系统：windows
 
 ## 安装golang
 
-下载地址：https://golang.google.cn/dl/
+下载地址：[点击](https://golang.google.cn/dl/)
 
 现在不需要配置go环境变量了，下载后即可使用，自动配置好了
 
@@ -29,9 +28,9 @@ go version go1.17 windows/amd64
 
 ## 安装goland
 
-下载地址：https://www.jetbrains.com/go/
+下载地址：[点击](https://www.jetbrains.com/go/)
 
 点击download下载（不要挂vpn，比较慢）
 
-破解:https://tech.souyunku.com/?p=49115
+破解:[点击](https://tech.souyunku.com/?p=49115)
 
