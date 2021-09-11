@@ -103,7 +103,32 @@ pie title KINGRAM的持仓
 ## video
 
 ## 测试短语
-{{< chart >}}{ "type": "pie", "data": { "labels": [ "ada", "ar", "bnb", "btc", "celo", "dot", "eth", "ftt", "link", "sand", "uni", "xrp" ], "datasets": [ { "data": [ 80, 20, 120, 300, 20, 120, 300, 80, 120, 40, 120, 80 ], "backgroundColor": [ "#1F7B16", "#9C846F", "#218AB5", "#52FA82", "#FBF867", "#58BF5C", "#97D2D2", "#A313E4", "#F95957", "#818A7B", "#3EDCA4", "#92F2B8" ] } ] }, "options": { "plugins": { "title": { "display": true, "text": "我的持仓" } }, "maintainAspectRatio": false } }{{< /chart >}}
+{{< chart >}}
+
+{
+	"type": "pie",
+	"data": {
+		"labels": ["ada", "ar", "bnb", "btc", "celo", "dot", "eth", "ftt", "link", "sand", "uni", "xrp"],
+		"datasets": [{
+			"data": [80, 20, 120, 300, 20, 120, 300, 80, 120, 40, 120, 80],
+			"backgroundColor": ["#1F7B16", "#9C846F", "#218AB5", "#52FA82", "#FBF867", "#58BF5C", "#97D2D2", "#A313E4", "#F95957", "#818A7B", "#3EDCA4", "#92F2B8"]
+		}]
+	},
+	"options": {
+		"plugins": {
+			"title": {
+				"display": true,
+				"text": "我的持仓占比"
+			}
+		},
+        "legend": {
+        	"position":"left"
+        },
+		"maintainAspectRatio": false
+	}
+}
+
+{{< /chart >}}
 
 ## 🎯 我的持仓收益数据
 
