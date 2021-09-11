@@ -124,6 +124,7 @@ pie title KINGRAM的持仓
         "plugins": {
             "title": {
                 "display":true,
+                "position":"left",
                 "text":"我的持仓"
             }
         },
