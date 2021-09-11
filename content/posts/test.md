@@ -105,7 +105,7 @@ pie title KINGRAM的持仓
 ## 测试短语
 {{< chart >}}
 {
-    "type" : "doughnut",
+    "type" : "pie",
     "data" : {
         "labels": ["btc","eth","dog","ftt","shib","dot"],
         "datasets": [{
@@ -124,7 +124,6 @@ pie title KINGRAM的持仓
         "plugins": {
             "title": {
                 "display":true,
-                "position":"left",
                 "text":"我的持仓"
             }
         },
