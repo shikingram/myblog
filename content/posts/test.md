@@ -106,7 +106,7 @@ pie title KINGRAM的持仓
 {{< chart >}}
 
 {
-	"type": "doughnut",
+	"type": "pie",
 	"data": {
 		"labels": ["ada", "ar", "bnb", "btc", "celo", "dot", "eth", "ftt", "link", "sand", "uni", "xrp"],
 		"datasets": [{
@@ -121,6 +121,9 @@ pie title KINGRAM的持仓
 				"text": "我的持仓占比"
 			}
 		},
+        "legend": {
+            "display": false
+        },
 		"maintainAspectRatio": false
 	}
 }
