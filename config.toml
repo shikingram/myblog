@@ -12,14 +12,20 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-166045776-1"
 # disqusShortname = "yourdiscussshortname"
+buildFuture = true
 
 [author]
-  name = "Kingram"
+  name = "KINGRAM"
 
 [blackfriday]
+extensionsmask = ["noIntraEmphasis"]
+fractions = false
   # hrefTargetBlank = true
   # noreferrerLinks = true
   # nofollowLinks = true
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [taxonomies]
   tag = "tags"
@@ -28,6 +34,7 @@ googleAnalytics = "UA-166045776-1"
 [params]
   since = "2018"
   toc = true
+ usemermaid=true
 
  customCSS = ["css/a.css"]
   
@@ -59,10 +66,22 @@ googleAnalytics = "UA-166045776-1"
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
+  
+  [[params.social]]
+	name = "telegram"
+	url = "https://t.me/K1ngram4"
 
   [[params.social]]
     name = "github"
     url = "https://github.com/k1ngram4"
+	
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/Kunshi_"
+	
+  [[params.social]]
+    name = "email"
+    url = "mailto:kingram@163.com"
 
 [params.utteranc]
   enable = true
