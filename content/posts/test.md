@@ -106,7 +106,7 @@ pie title KINGRAM的持仓
 {{< chart >}}
 
 {
-	"type": "pie",
+	"type": "outlabeledPie",
 	"data": {
 		"labels": ["ada", "ar", "bnb", "btc", "celo", "dot", "eth", "ftt", "link", "sand", "uni", "xrp"],
 		"datasets": [{
