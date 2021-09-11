@@ -103,7 +103,7 @@ pie title KINGRAM的持仓
 ## video
 
 ## 测试短语
-{{< chart 200 200 >}}
+{{< chart 10 300 >}}
 {
     "type" : "pie",
     "data" : {
@@ -122,8 +122,10 @@ pie title KINGRAM的持仓
         }]
     },
     "options": {
-        "title": {
-            "position":"right"
+        plugins: {
+            "title": {
+                "position":"right"
+            }
         },
         "maintainAspectRatio": false
     }
