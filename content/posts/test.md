@@ -103,11 +103,11 @@ pie title KINGRAM的持仓
 ## video
 
 ## 测试短语
-{{< chart 90 200 >}}
+{{< chart 120 200 >}}
 {
     "type" : "pie",
     "data" : {
-        "labels": ["","",""],
+        "labels": ["btc","eth","dog","ftt","shib","dot"],
         "datasets": [{
             "label" : "我的持仓",
             "data" : [12, 19, 18, 16, 13, 14],
@@ -118,8 +118,7 @@ pie title KINGRAM的持仓
                 "rgba(75, 192, 192, 0.2)",
                 "rgba(153, 102, 255, 0.2)",
                 "rgba(255, 159, 64, 0.2)"
-            ],
-            "borderWidth": 1
+            ]
         }]
     },
     "options": {
