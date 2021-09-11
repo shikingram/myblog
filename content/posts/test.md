@@ -121,10 +121,6 @@ pie title KINGRAM的持仓
 				"text": "我的持仓占比"
 			}
 		},
-        "legend": {
-            "display": true,
-        	"position":"left"
-        },
 		"maintainAspectRatio": false
 	}
 }
