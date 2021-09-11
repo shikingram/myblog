@@ -103,9 +103,7 @@ pie title KINGRAM的持仓
 ## video
 
 ## 测试短语
-{{< chart >}}
-
-{
+{{< chart >}}{
 	"type": "pie",
 	"data": {
 		"labels": ["ada", "ar", "bnb", "btc", "celo", "dot", "eth", "ftt", "link", "sand", "uni", "xrp"],
@@ -126,9 +124,7 @@ pie title KINGRAM的持仓
         },
 		"maintainAspectRatio": false
 	}
-}
-
-{{< /chart >}}
+}{{< /chart >}}
 
 ## 🎯 我的持仓收益数据
 
