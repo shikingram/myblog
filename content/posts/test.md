@@ -118,7 +118,7 @@ pie title KINGRAM的持仓
 		"plugins": {
 			"title": {
 				"display": true,
-				"text": "我的持仓占比"
+				"text": "kingram的持仓pie图分布"
 			},
 			"legend": {
 				"display": true,
