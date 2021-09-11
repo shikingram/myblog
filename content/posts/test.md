@@ -119,11 +119,12 @@ pie title KINGRAM的持仓
 			"title": {
 				"display": true,
 				"text": "我的持仓占比"
+			},
+			"legend": {
+				"display": true,
+				"position": "right"
 			}
 		},
-        "legend": {
-            "display": false
-        },
 		"maintainAspectRatio": false
 	}
 }
