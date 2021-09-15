@@ -8,8 +8,8 @@
   "draft":"false",
   "author":"kingram"
 }
- 
-```
+
+```go
 /*
 	一个安全关闭的的协程模型
 */
@@ -31,7 +31,7 @@ func (mc *MyChannel) SafeClose() {
 
 使用waitgroup和chanel是否关闭的判断来通知和等待协程退出
 
-```
+```go
 func main() {
 	myChan := NewMyChannel()
 	wg := &sync.WaitGroup{}
@@ -60,3 +60,4 @@ func main() {
 	wg.Wait()
 }
 ```
+
