@@ -67,5 +67,5 @@
 
 ## 区块链技术架构
 
-![区块链技术结构图](./img/blockchain_s/bcstruct.png)
+![区块链技术结构图](/img/blockchain_s/bcstruct.png)
 
