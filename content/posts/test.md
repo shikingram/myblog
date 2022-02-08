@@ -1,37 +1,28 @@
 {
-  "title":"Hugo的MarkDown语法测试",
-  "description":"test",
-  "tags":[
-    "blog"
-  ],
-  "date":"2021-08-11",
-  "lastmod":"2021-08-11",
-  "draft":"false",
-  "author":"kingram"
+"title":"Hugo的MarkDown语法测试",
+"description":"test",
+"tags":[
+"blog"
+],
+"date":"2021-08-11",
+"lastmod":"2021-08-11",
+"draft":"false",
+"author":"kingram"
 }
 
 ## 测试图片
 
-
-
 图片1
 
-
-
 ![1](/img/test/1.jpg)
-
-
 
 图片2
 
 ![2](/img/test/2.jpg)
 
-
-
 ## 😄测试emoj
 
 ⌚️ 📱 📲 💻 ⌨️ 🖥 🖨 🖱 🖲 🕹 🗜 💽 💾 💿 📀 📼 📷 📸 📹 🎥 📽 🎞 📞 ☎️ 📟 📠 📺 📻 🎙 🎚 🎛 🧭 ⏱ ⏲ ⏰ 🕰 ⌛️ ⏳ 📡 🔋 🔌 💡 🔦 🕯 🪔 🧯 🛢 💸 💵 💴 💶 💷 🪙 💰 💳 💎 ⚖️ 🪜 🧰 🪛 🔧 🔨 ⚒ 🛠 ⛏ 🪚 🔩 ⚙️ 🪤 🧱 ⛓ 🧲 🔫 💣 🧨 🪓 🔪 🗡 ⚔️ 🛡 🚬 ⚰️ 🪦 ⚱️ 🏺 🔮 📿 🧿 💈 ⚗️ 🔭 🔬 🕳 🩹 🩺 💊 💉 🩸 🧬 🦠 🧫 🧪 🌡 🧹 🪠 🧺 🧻 🚽 🚰 🚿 🛁 🛀 🧼 🪥 🪒 🧽 🪣 🧴 🛎 🔑 🗝 🚪 🪑 🛋 🛏 🛌 🧸 🪆 🖼 🪞 🪟 🛍 🛒 🎁 🎈 🎏 🎀 🪄 🪅 🎊 🎉 🎎 🏮 🎐 🧧 ✉️ 📩 📨 📧 💌 📥 📤 📦 🏷 🪧 📪 📫 📬 📭 📮 📯 📜 📃 📄 📑 🧾 📊 📈 📉 🗒 🗓 📆 📅 🗑 📇 🗃 🗳 🗄 📋 📁 📂 🗂 🗞 📰 📓 📔 📒 📕 📗 📘 📙 📚 📖 🔖 🧷 🔗 📎 🖇 📐 📏 🧮 📌 📍 ✂️ 🖊 🖋 ✒️ 🖌 🖍 📝 ✏️ 🔍 🔎 🔏 🔐 🔒 🔓
-
 
 🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🫐 🍈 🍒 🍑 🥭 🍍 🥥 🥝 🍅 🍆 🥑 🥦 🥬 🥒 🌶 🫑 🌽 🥕 🫒 🧄 🧅 🥔 🍠 🥐 🥯 🍞 🥖 🥨 🧀 🥚 🍳 🧈 🥞 🧇 🥓 🥩 🍗 🍖 🦴 🌭 🍔 🍟 🍕 🫓 🥪 🥙 🧆 🌮 🌯 🫔 🥗 🥘 🫕 🥫 🍝 🍜 🍲 🍛 🍣 🍱 🥟 🦪 🍤 🍙 🍚 🍘 🍥 🥠 🥮 🍢 🍡 🍧 🍨 🍦 🥧 🧁 🍰 🎂 🍮 🍭 🍬 🍫 🍿 🍩 🍪 🌰 🥜 🍯 🥛 🍼 🫖 ☕️ 🍵 🧃 🥤 🧋 🍶 🍺 🍻 🥂 🍷 🥃 🍸 🍹 🧉 🍾 🧊 🥄 🍴 🍽 🥣 🥡 🥢 🧂
 
@@ -41,12 +32,11 @@
 
 ⚽️ 🏀 🏈 ⚾️ 🥎 🎾 🏐 🏉 🥏 🎱 🪀 🏓 🏸 🏒 🏑 🥍 🏏 🪃 🥅 ⛳️ 🪁 🏹 🎣 🤿 🥊 🥋 🎽 🛹 🛼 🛷 ⛸ 🥌 🎿 ⛷ 🏂 🪂 🏋️‍♀️ 🏋️ 🏋️‍♂️ 🤼‍♀️ 🤼 🤼‍♂️ 🤸‍♀️ 🤸 🤸‍♂️ ⛹️‍♀️ ⛹️ ⛹️‍♂️ 🤺 🤾‍♀️ 🤾 🤾‍♂️ 🏌️‍♀️ 🏌️ 🏌️‍♂️ 🏇 🧘‍♀️ 🧘 🧘‍♂️ 🏄‍♀️ 🏄 🏄‍♂️ 🏊‍♀️ 🏊 🏊‍♂️ 🤽‍♀️ 🤽 🤽‍♂️ 🚣‍♀️ 🚣 🚣‍♂️ 🧗‍♀️ 🧗 🧗‍♂️ 🚵‍♀️ 🚵 🚵‍♂️ 🚴‍♀️ 🚴 🚴‍♂️ 🏆 🥇 🥈 🥉 🏅 🎖 🏵 🎗 🎫 🎟 🎪 🤹 🤹‍♂️ 🤹‍♀️ 🎭 🩰 🎨 🎬 🎤 🎧 🎼 🎹 🥁 🪘 🎷 🎺 🪗 🎸 🪕 🎻 🎲 ♟ 🎯 🎳 🎮 🎰 🧩
 
-
-
 ## 测试文字颜色
 
+
 | <font color=#800000>酒紅色</font> | <font color=#FF0000>紅色</font>   |
-| --------------------------------- | --------------------------------- |
+| ----------------------------------- | ----------------------------------- |
 | <font color=#FF6600>橘色</font>   | <font color=#FFD700>金色</font>   |
 | <font color=#FFFF00>黃色</font>   | <font color=#00FF00>綠色</font>   |
 | <font color=#008000>墨綠色</font> | <font color=#00FFFF>青色</font>   |
@@ -54,7 +44,6 @@
 | <font color=#800080>紫色</font>   | <font color=#808080>灰色</font>   |
 
 ## mermaid
-
 
 ```mermaid
 sequenceDiagram
@@ -78,10 +67,7 @@ graph TD;
     C-->D;
 ```
 
-
-
 ## 🎨 我的的持仓占比
-
 
 ```mermaid
 graph TD;
@@ -90,7 +76,6 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
 
 ```mermaid
 pie title KINGRAM的持仓
@@ -103,6 +88,7 @@ pie title KINGRAM的持仓
 ## video
 
 ## 测试短语
+
 {{< chart >}}{"type":"doughnut","data":{"labels":["ada","ar","bnb","btc","celo","dot","eth","ftt","link","sand","uni","xrp"],"datasets":[{"data":[80,20,120,300,20,120,300,80,120,40,120,80],"backgroundColor":["#1F7B16","#9C846F","#218AB5","#52FA82","#FBF867","#58BF5C","#97D2D2","#A313E4","#F95957","#818A7B","#3EDCA4","#92F2B8"]}]},"options":{"plugins":{"title":{"display":true,"text":"kingram的持仓pie图分布"},"legend":{"display":true,"position":"right"}},"maintainAspectRatio":false}}{{< /chart >}}
 
 ## 🎯 我的持仓收益数据
@@ -115,6 +101,7 @@ pie title KINGRAM的持仓
 
 <table>
 <thead><tr bgcolor="#d0d0d0" ><th>币种</th><th>持有数量(个)</th><th>现价(USDT)</th><th>总金额(USDT)</</th><th>持仓均价(USDT)</</th><th>成本(USDT)</</th><th>利润(USDT)</</th><th>收益率</th></tr></thead>
+
 <tbody>
 <tr >
 <td bgcolor="#FFECEC">btc</td>
@@ -138,3 +125,7 @@ pie title KINGRAM的持仓
 </tr>
 </tbody>
 </table>
+
+## 2022年02月08日18:12:43测试
+
+hello
