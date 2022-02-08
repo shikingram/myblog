@@ -126,6 +126,6 @@ pie title KINGRAM的持仓
 </tbody>
 </table>
 
-## 2022年02月08日18:18:07
+## 2022-02-08 18:18:57
 
 hello hello
