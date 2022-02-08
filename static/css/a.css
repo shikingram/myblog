@@ -27,3 +27,7 @@ a {
     background-color: #f9f9f9;
     position: static
 }
+
+.mermaid svg {
+    background-color: #dcd8d800 !important;
+}
