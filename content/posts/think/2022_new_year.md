@@ -6,6 +6,7 @@ lastmod: 2022-01-31
 
 tags: [  
 "invest",
+"thinking",
 ]
 ---
 # 记录一年的币圈旅程
