@@ -1,3 +1,14 @@
+---
+title: "Golang按结构体字段排序数组"   
+author: "Kingram"  
+date: 2022-03-02   
+lastmod: 2022-03-02
+
+tags: [  
+"golang",
+]
+---
+
 golang的sort包提供了自定义的排序接口Interface，此接口包括三个方法。实现这三个函数即可调用sort包的函数进行排序，示例如下：
 ```sql
 package main
