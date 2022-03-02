@@ -10,7 +10,7 @@ tags: [
 ---
 
 golang的sort包提供了自定义的排序接口Interface，此接口包括三个方法。实现这三个函数即可调用sort包的函数进行排序，示例如下：
-```sql
+```golang
 package main
 
 import (
