@@ -1,3 +1,14 @@
+---
+title: "Go中 “omitempty” 陷阱"   
+author: "Kingram"  
+date: 2022-03-09   
+lastmod: 2022-03-09
+
+tags: [  
+"golang",
+]
+---
+
 ## 用法
 熟悉 Golang 的朋友对于 json 和 struct 之间的转换一定不陌生，为了将代码中的结构体与 json 数据解耦，通常我们会在结构体的 field 类型后加上解释说明，例如在表示一个地址的时候， json 数据如下所示
 ```golang
