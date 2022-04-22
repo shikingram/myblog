@@ -84,10 +84,11 @@ open ./cfg/cfg.json: no such file or directory
 
 很奇怪，配置文件明明拷贝到`/Users/kingram/workerspace/projectPath/`下了，为什么找不到？
 
-原因就是open()中`./cfg/cfg.json`是相对于当前执行目录，补全后就是`/Users/kingram/cfg/cfg.json`
+原因就是open()中`./cfg/cfg.json`是相对于**当前执行目录**，补全后就是`/Users/kingram/cfg/cfg.json`
 
 ## Golang中获取当前目录、当前文件目录、当前执行目录
 
+解决上面的问题，就把相对路径改为绝对路径就行了，也就是在前面添加上**当前目录**
 ```go
 package main
 
