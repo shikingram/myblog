@@ -66,22 +66,10 @@ unsafe = true
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  
-  [[params.social]]
-	name = "telegram"
-	url = "https://t.me/shikingram"
 
   [[params.social]]
     name = "github"
     url = "https://github.com/shikingram"
-	
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/shikingram"
-	
-  [[params.social]]
-    name = "email"
-    url = "mailto:kingram@163.com"
 
 [params.utteranc]
   enable = true
