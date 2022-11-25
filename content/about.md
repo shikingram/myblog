@@ -1,18 +1,26 @@
 ---
 title: "关于"
-date: "2021-07-12"
+date: "2022-11-24"
 ---
 
-## 简介
-
-你好，我是kingram，名字来自NBA球员布兰登·英格拉姆，我是他的粉丝。
-
-欢迎来到我的博客，目前工作是一名混子程序员，爱好很多，例如NBA、币圈投资、基金投资、英雄联盟等等。
-
-也是一名正经开发，也喜欢探索一些未知的领域，博客预计会涉及到一些技术总结、学习笔记、投资记录、生活感悟等等。也有的技术文章是来自网上平时收藏的不错的文章，如果侵权可以联系我删除。
-
-我的联系方式可以点击首页或者右上角的图标。
-
+## 中文版本自我介绍
+你好! 👋
+很高兴认识你，我是kingram，名字来自NBA球员布兰登·英格拉姆，我是他的粉丝。
+欢迎来到我的博客，目前工作是一名coder，在南京搞云原生相关的工作。
+这个博客我会记录一些关于技术，投资，工作等方面的文章
+我的联系方式可以点击首页或者右上角的图标。或者评论文章我也能收到邮件。
 kingram   
+2022.11.24
 
-2022.3.9
+
+# Profile by English
+Hi, there! 👋
+Nice to meet you, My name is kingram, The name comes from NBA player Brandon Ingram, who plays for the New Orleans Pelicans and I'm a fan of BI.
+Welcome to my blogsite, Currently, I am a coder working on cloud-native in Nanjing. 
+This blog site will record some artical about code, invest, work etc.
+My contact information can be found in the upper right corner of the site. or you can leave a comment on my blog and i'll get an email too.
+
+Have fun!
+
+kingram
+2022.11.24
