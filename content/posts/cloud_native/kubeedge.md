@@ -182,6 +182,8 @@ status:
 
 上行控制同样的涉及到边缘侧的几个组件，其实这两张图就能大概看出了devicetwin和eventbus的功能：devicetwin保存设备信息，eventbus是devicetwin和mapper的桥梁
 
+### edge
+
 **edgehub**
 
 主要负责和cloudhub交互，同时保持心跳，从架构图中可以看到同时和边缘节点内部组件交互，分别是matamanager、devicetwin、eventbus、servicebus
