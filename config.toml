@@ -48,7 +48,7 @@ unsafe = true
   # images = [""]
 
   # homeSubtitle = "Coding, Thinking, Life"
-  footerCopyright = ' &#183; <a href="http://beian.miit.gov.cn/">苏ICP备2021012652号</a>'
+  footerCopyright = ' &#183; <a href="http://beian.miit.gov.cn/">苏ICP备2021012652号</a> &#183; <a href="/links">友情链接</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -80,18 +80,17 @@ unsafe = true
 [menu]
 
   [[menu.main]]
-    name = "文章"
+    name = "Posts"
     url = "posts/"
     weight = 10
 	
   [[menu.main]]
-    name = "标签"
+    name = "Tags"
     url = "tags/"
     weight = 10
 
   [[menu.main]]
-    name = "关于"
+    name = "About"
     url = "about/"
-    weight = 20
-	
+    weight = 10
 
