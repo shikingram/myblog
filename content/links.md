@@ -5,7 +5,7 @@ date: "2022-11-24"
 
 ## About
 
-This gus are my friend's blog, if you want join us, contact with me 
+These links are blogs of my friends, please contact me if you want to join us. 
 
 ## Links
 - [forecho](https://blog.forecho.com/)
