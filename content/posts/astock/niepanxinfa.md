@@ -5,7 +5,8 @@ date: 2022-12-14
 lastmod: 2022-12-14
 
 tags: [  
-    "AStock"
+    "AStock",
+    "invest",
 ]
 ---
 
