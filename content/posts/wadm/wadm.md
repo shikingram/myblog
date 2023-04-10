@@ -11,7 +11,7 @@ tags: [
 ---
 
 # wasmcloud架构简图
-![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1663134167238-869293a0-d796-4814-85ed-482c0ea4ca4b.jpeg)
+![](/img/wadm/1.png)
 # wadm简介
 ## wadm是什么？
 WasmCloud主机运行时（OTP）提供了[Actors](https://wasmcloud.dev/reference/host-runtime/actors/) 和 [Capabilities](https://wasmcloud.dev/reference/host-runtime/capabilities) 的托管和调度，wadm是一个控制平面，用来管理一系列的部署在主机运行时lattice中的应用，并监听当前应用状态。
@@ -84,17 +84,17 @@ None
 }
 ```
 # OAM字段说明
-![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1662617084847-2de538b9-8a9b-45a6-b06b-57d9fddaacd7.jpeg)
+![](/img/wadm/2.png)
 上图为oam模型基本框架，目前wadm项目版本为`0.3.0`，已实现的`component` 和`traits`的类型及配置如下：
-![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1662627313562-0f1b6533-e42a-4ffd-a718-5b001ee0b6a2.jpeg)
+![](/img/wadm/3.png)
 **explain** ： [petclinic](https://github.com/wasmCloud/wadm/blob/main/oam/petclinic.yaml)
 # Wadm oam deploy 数据流分析
 ## API时序图
-![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1663133481261-41d58322-b1e4-480d-b8ff-f931a1e1a8fc.jpeg)
+![](/img/wadm/4.png)
 上图展示用户在调用部分api时wadm内部数据时序图，wadm依赖`redis`作为OAM数据模型的存储中间件，redis中存储了各个应用的不同版本模型，wadm与HostCore之间也借助于NATS通信。（图中步骤2.4）
 应用的状态变化事件都遵循CloudEvents规范发布到NATS中指定topic（图中步骤1.4、2.5）
 ## Wadm与HostCore数据通信
-![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1663137150259-217bf4b6-9aa8-4411-91a1-52b5e5af27a7.jpeg)
+![](/img/wadm/5.png)
 如上图所示，wadm维护了一些进程和`HostCore`之间进行通信，当用户执行`deploy`动作时，会首先获取该应用对应的[deploy_monitor进程（不存在则创建）](https://github.com/wasmCloud/wadm/blob/ec3888120148c94e33ce76251d0cb735641ea6c5/wadm/lib/wadm/api/api_server.ex#L253-L264)在短暂延迟后执行reconcile，将OAM模型资源转换为对应的actor、capability列表，并推送至NATS，在创建deployment_monitor时同时[启动lattice_supervisor进程（不存在则创建）](https://github.com/wasmCloud/wadm/blob/ec3888120148c94e33ce76251d0cb735641ea6c5/wadm/lib/wadm/deployments/deployment_monitor.ex#L83-L89)监控Lattice状态变化，并处理相关消息。
 各个进程的详细介绍如下：
 ### deploy_monitor
