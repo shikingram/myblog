@@ -1,3 +1,15 @@
+---
+title: "wadm oam数据流分析调研"   
+author: "Kingram"  
+date: 2022-12-14   
+lastmod: 2022-12-14
+
+tags: [  
+    "oam",
+    "wadm"
+]
+---
+
 # wasmcloud架构简图
 ![](https://cdn.nlark.com/yuque/0/2022/jpeg/25679209/1663134167238-869293a0-d796-4814-85ed-482c0ea4ca4b.jpeg)
 # wadm简介
