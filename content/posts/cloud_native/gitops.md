@@ -55,15 +55,9 @@ GitOps is a branch of DevOps that focuses on using Git code repositories to mana
 
 ## Key components of a GitOps workflow   
 There are four key components to a GitOps workflow, a Git repository, a continuous delivery (CD) pipeline, an application deployment tool, and a monitoring system.
-
 - The Git repository is the source of truth for the application configuration and code.
-
 - The CD pipeline is responsible for building, testing, and deploying the application.
-
 - The deployment tool is used to manage the application resources in the target environment.
-
 - The monitoring system tracks the application performance and provides feedback to the development team.
 
-
----
-source::https://about.gitlab.com/topics/gitops/
+source:https://about.gitlab.com/topics/gitops/
