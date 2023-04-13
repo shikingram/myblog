@@ -1,5 +1,5 @@
 ---
-title: "chatgpt学习记录-k8s abrc"   
+title: "chatgpt学习记录-k8s rbac"   
 author: "Kingram"  
 date: 2023-04-12   
 lastmod: 2022-04-12
@@ -10,8 +10,8 @@ tags: [
 ]
 ---
 
-# chatgpt学习记录-k8s abrc
-## rabc 是什么组件
+# chatgpt学习记录-k8s rbac
+## rbac 是什么组件
 
 在 Kubernetes 中，Role-Based Access Control（RBAC）是一种授权机制，用于控制用户和服务账号对 Kubernetes API 对象进行访问的权限。
 
